@@ -1,6 +1,6 @@
 import * as crypto from './crypto';
 const bs58check = require('bs58check');
-const ecc = require('tiny-secp256k1');
+const ecc = require('tiny-secp256k1/js');
 const typeforce = require('typeforce');
 const wif = require('wif');
 
